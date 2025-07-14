@@ -40,10 +40,6 @@
    40  git status -v
    41  git -v
    42  git remote -v
-   43  https://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@github.com/kushalsabe/project.git
-   44  git remote set-url origin
-   45  git remote set-url origin https://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@github.com/kushalsabe/project.git
-   46  git push origin master
    47  git config --global credential.helper store
    48  git push origin master
    49  git remote -v
