@@ -23,9 +23,6 @@
    23  git status
    24  git add test.py
    25  git status
-   26  git commit -m "first commit"
-   27  git config user.name "Kushal Sabe"
-   28  git config user.email "kushal@gmail.com"
    29  git commit -m "first commit"
    30  git status
    31  rm test.py
@@ -34,35 +31,16 @@
    34  git status
    35  git restore test.py
    36  ll
-   37  git remote add origin https://github.com/kushalsabe/project.git
-   38  ll
    39  git status
    40  git status -v
    41  git -v
    42  git remote -v
-   47  git config --global credential.helper store
-   48  git push origin master
    49  git remote -v
    50  git push origin master
    51  git push origin main
    52  git push origin master
-   53  ssh-keygen -t rsa -b 4096 -C "kushal@example.com"
-   54  cat ~/.ssh/id_rsa.pub
-   55  git remote set-url origin git@github.com:kushalsabe/project.git
-   56  ssh -T git@github.com         # Should say "Hi kushalsabe!"
-   57  git push origin master        # Now it should work
-   58  ll
    59  cd ..
    60  mkdir demo
-   61  cd demo/
-   62  ll
-   63  ld
-   64  ll
-   65  l
-   66  ll
-   67  ls
-   68  git clonehttps://github.com/kushalsabe/project.git
-   69  git clone https://github.com/kushalsabe/project.git
    70  ls
    71  cd project/
    72  ls
